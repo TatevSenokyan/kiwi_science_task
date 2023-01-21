@@ -210,11 +210,13 @@
     border-radius: 10px;
     margin-left: 50px;
     margin-top: 10px;
+    position: relative;
 }
 
 .subscribe div {
     width: 335px;
     margin-left: 16px;
+    padding-top: 23px;
     font-family: 'Axiforma';
     font-style: normal;
     font-weight: 500;
@@ -224,7 +226,31 @@
 }
 
 .subscribe div span {
-    
+    color: #E04F44;
+}
+
+.subscribe button {
+    width: 338.71px;
+    height: 40px;
+    background: #A37DF9;
+    border-radius: 10px;
+    font-family: 'Axiforma';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 145%;
+    color: #FFFFFF;
+    margin-left: 16px;
+    margin-top: 14px;
+    border: none;
+    cursor: pointer
+}
+
+.subscribe img {
+    position: absolute;
+    margin-left: 90%;
+    margin-top: 10px;
+    cursor: pointer;
 }
 
 

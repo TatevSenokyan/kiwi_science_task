@@ -4,7 +4,7 @@ import './Stats.css';
 
 function Stats () {
     return (
-      <>
+      <div style={{display: 'block'}}>
       <div className="statsContainer">
           <div className = "statsContent">
               <div className='info'>
@@ -68,13 +68,15 @@ function Stats () {
           </div>
       </div>
       <div className = 'subscribe'>
+          <img alt='close' src={'/images/close.png'} />
           <div>
              Your free trial has been started․ There are
              <br />
              <span>5 days</span> left.
           </div>
+          <button>Subscribe</button>
       </div>
-     </>
+     </div>
     )
 }
 
