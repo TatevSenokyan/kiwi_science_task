@@ -21,7 +21,7 @@ function Excahanges() {
                 Object.entries(data).map((item)=><div key = {item[0]} className='barItem'>
                     <div className='number'>{item[1]}%</div>
                     <div className='images'>
-                        <img className='fullbar' src={'images/fullbar.png'} />
+                        <img alt='img' className='fullbar' src={'images/fullbar.png'} />
                         <img 
                           alt='img' 
                           className = 'fillbar'
