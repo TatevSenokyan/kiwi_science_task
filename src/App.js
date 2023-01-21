@@ -3,6 +3,7 @@ import React from 'react';
 import Navbar from './components/Navbar';
 import Stats from './components/Stats';
 import Exchanges from './components/Exchanges';
+import Coins from './components/Coins';
 import './App.css'
 
 
@@ -14,6 +15,7 @@ function App() {
       <div style={{display: 'flex'}}>
         <Stats />
         <Exchanges />
+        <Coins />
       </div>
     </div>
   );
