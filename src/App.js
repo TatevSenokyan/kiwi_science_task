@@ -1,25 +1,31 @@
 
 import React from 'react';
-import Navbar from './components/Navbar';
-import Stats from './components/Stats';
-import Exchanges from './components/Exchanges';
-import Coins from './components/Coins';
-import Analytics from './components/Analytics';
-import Table from './components/Table';
+import Navbar from './components/Navbar/Navbar';
+import Stats from './components/Stats/Stats';
+import Exchanges from './components/Exchanges/Exchanges';
+import Coins from './components/Coins/Coins';
+import Analytics from './components/Analytics/Analytics';
+import Table from './components/Table/Table';
+import LineChart from './components/LineChart/LineChart';
+import BarChart from './components/BarChart/BarChart';
+import AreaChart from './components/AreaChart/AreaChart';
 import './App.css';
 
 
 function App() { 
 
   return (
-    <div className="App">
+    <div className='App'>
       <Navbar />
-      <div style={{display: 'flex'}}>
+      <div className='mainContainer'>
         <Stats />
-        <div style={{display: 'flex', width: '1391px', flexWrap: 'wrap', marginLeft: '10px'}}>
+        <div className='mainWrapper'>
+          <LineChart />
           <Exchanges />
           <Coins />
+          <BarChart />
           <Analytics />
+          <AreaChart />
           <Table />
         </div>
       </div>

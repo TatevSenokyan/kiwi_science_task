@@ -41,7 +41,7 @@
     display: flex;
     align-items: flex-end;
     position: relative;
-    background-image: url(../../public/images/circle1.png);
+    background-image: url(../../../public/images/circle1.png);
 }
 
 .topGainer, .topLooser {
@@ -65,7 +65,7 @@
 
 .looser {
   transform: rotate(180deg);
-  background-image: url(../../public/images/loser.svg);
+  background-image: url(../../../public/images/loser.svg);
   background-repeat: no-repeat;
   background-size: contain;
   background-position: 50% -5%;

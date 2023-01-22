@@ -59,7 +59,7 @@
 .input {
     width: 375px;
     height: 50px;
-    background: url('../../public/images/search.png'), linear-gradient(0deg, #1A202C, #1A202C);
+    background: url('../../../public/images/search.png'), linear-gradient(0deg, #1A202C, #1A202C);
     border: 1px solid #2B3548;
     box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
     border-radius: 7px;

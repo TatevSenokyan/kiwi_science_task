@@ -4,3 +4,14 @@ body {
  background-color: #1E1E1E;
  box-sizing: border-box;
 }
+
+.mainContainer {
+  display: flex
+}
+
+.mainWrapper {
+  display: flex;
+  width: 1391px;
+  flex-wrap: wrap; 
+  margin-left: 10px;
+}
