@@ -47,7 +47,8 @@
 .topGainer, .topLooser {
     position: absolute;
     margin-top: 40px;
-    margin-left: 95px;
+    width: 100px;
+    margin-left: 75px;
     font-family: 'Axiforma';
     font-style: normal;
     font-weight: 400;
