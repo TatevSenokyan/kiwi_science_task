@@ -2,7 +2,6 @@ import React, {useState} from 'react';
 import './LineChart.css';
 import {Line} from 'react-chartjs-2';
 import { Chart as ChartJS, ArcElement, Tooltip, LineElement, Filler, CategoryScale, LinearScale, PointElement } from "chart.js";
-import { collapseTextChangeRangesAcrossMultipleVersions } from 'typescript';
 
 ChartJS.register(ArcElement, Tooltip, LineElement, Filler, CategoryScale, LinearScale, PointElement);
 
