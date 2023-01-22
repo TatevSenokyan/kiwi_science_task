@@ -9,4 +9,125 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
 }
+
+.wrapper {
+    width: 630px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.checkbox {
+    width: 248px;
+    height: 28px;   
+    background: #212834;
+    border-radius: 4.0865px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    align-self: flex-end;
+    margin-right: 45px;
+    margin-top: 20px;
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.checkbox div:nth-of-type(1) {
+    color: #128994
+}
+
+.checkbox div:nth-of-type(2) {
+    color: #58C925
+}
+
+.checkbox div {
+    display: flex;
+    cursor: pointer
+}
+
+.checkbox span {
+    padding-left: 3px;
+    box-sizing: border-box;
+}
+
+.custominput {
+    border: 0.639536px solid #805AD5;
+    width: 11.66px;
+    height: 11.51px;
+    background-color: #212834;
+}
+
+.total {
+    display: flex;
+    width: 637px;
+    align-items: flex-start;
+}
+
+.all, .dateSelect {
+    width: 117.64px;
+    height: 30.33px;
+    margin-left: 12px;
+    background: linear-gradient(180deg, #212834 0%, #262F3D 0.01%, #212734 100%);
+    border: 0.842853px solid #A3A0A0;
+    border-radius: 3.97656px;
+    color: white;
+    background: url(../../../public/images/select.png) no-repeat;
+    background-position: 95% 50%;
+    background-size: 5px 3px;
+    padding-left: 5px;
+}
+
+select {
+    -webkit-appearance: none;
+}
+
+.dateSelect {
+    width: 102px;
+    background-size: 7px 5px;
+}
+
+.total div {
+    font-family: 'Axiforma';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    color: #FFFFFF;
+}
+
+.total span{
+    font-size: 14px;
+    color: #805AD5;
+    margin-left: 230px;
+}
+
+.chartIcons {
+    width: 637px;
+    display: flex;
+    margin-top: 15px;
+    justify-content: flex-end;
+}
+
+.chartIcons img {
+    width: 16px;
+    height: 16px;
+    cursor: pointer;
+    padding-right: 5px;
+}
+
+.chartIcons img:nth-of-type(5) {
+    width: 23px;
+    height: 23px;
+}
+
+.chartContainer {
+    width: 150px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+  
