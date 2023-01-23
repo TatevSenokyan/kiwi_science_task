@@ -7,3 +7,154 @@
     margin-top: 10px;
     margin-left: 10px;
 }
+
+.futuretitle {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 431px;
+    margin: 4px auto
+}
+
+.futuretitle div:nth-of-type(1) {
+    font-family: 'Axiforma';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    color: #FFFFFF;
+}
+
+.futuretitle div:nth-of-type(2) {
+    font-family: 'Axiforma';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: #805AD5;
+}
+
+.areaChartWrapper {
+    width: 412px;
+    margin: auto;
+}
+
+.futureInfo {
+    width: 412px;
+    height: 79px;
+    background: linear-gradient(180deg, #2B3341 0%, rgba(61, 73, 95, 0.00693628) 99.99%, rgba(33, 39, 51, 0) 100%);
+    border: 0.482541px solid #686868;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.5px;
+}
+
+.areaChart {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    width: 412px;
+    height: 120px;
+    border: 0.1px solid #686868;
+    background-image: url(../../../public/images/area.png);
+    background-size: 420px 125px;
+    border-radius: 5px;
+    margin-top: 6px;
+    background-position: -5px 1px;
+}
+
+.areadate {
+    width: 153px;
+    height: 17.62px;
+    font-size: 10px;
+    align-items: center;
+    align-self: flex-end;
+    margin: 5px 10px
+}
+
+.areaItem {
+    width: 19.29px;
+    align-self: center;
+    padding: 2px 0px;
+    box-sizing: border-box;
+    height: 17.62px
+}
+.chartBottom {
+    width: 336px;
+    height: 55px;
+    display: flex;
+    margin-top: 8px;
+    font-family: 'Axiforma';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12.8022px;
+    align-items: center;
+    color: #FFFFFF;
+    text-align: left;
+}
+
+.chartBottom hr {
+    border: 0.786545px solid #DCCDFF;
+}
+
+.chartBottom span {
+    font-size: 12.6962px;
+    color: #805AD5;
+}
+
+.chartBottom div:nth-of-type(2) {
+    margin-left: 35px;
+    font-size: 13px;
+}
+
+.chartBottom div:nth-of-type(3) {
+    margin-left: 37px;
+    font-size: 13px;
+}
+
+.chartBottom div:nth-of-type(1) div {
+  margin-left: 0px;
+}
+
+.firstSection {
+    font-size: 11.2645px;
+    color: #FFFFFF;
+    text-align: left;
+    width: 148px;
+    justify-content: space-around;
+    margin-left: 16px;
+}
+
+.firstSection div:nth-of-type(2) {
+    height: 20px;
+    display: flex;
+    font-size: 17px;
+
+}
+
+.firstSection img:nth-of-type(2) {
+   margin-left: 10px;
+}
+
+.secondSection {
+    width: 160px;
+    height: 49px;
+    left: 1646.88px;
+    top: 513.29px;
+    background: linear-gradient(180deg, #2B3341 0%, rgba(61, 73, 95, 0.00693628) 99.99%, rgba(33, 39, 51, 0) 100%);
+    border: 0.239945px solid #686868;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    border-radius: 2.48626px;
+    font-family: 'Axiforma';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    color: #FFFFFF;
+    text-align: center;
+    margin-left: 50px;
+    padding-top: 5px;
+    box-sizing: border-box;
+}
+
