@@ -80,6 +80,17 @@
     line-height: 29px;
 }
 
+.input::-moz-placeholder {
+    color: #FFFFFF;
+    padding-left: 100px;
+    font-family: 'Axiforma';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18.3478px;
+    line-height: 29px;
+    opacity: 1
+}
+
 .metamask {
     display: flex;
     align-items: flex-start;

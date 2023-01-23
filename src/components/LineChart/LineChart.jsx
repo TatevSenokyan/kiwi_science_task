@@ -11,18 +11,9 @@ const LineChart = () => {
   const [checkedBTC, setCheckedBTC] = useState(true);
   const [checkedETH, setCheckedETH] = useState(false);
 
-  const hoveraValue = {
-    id: 'hoverValue',
-    afterDatasetsDraw(chart, args, pluginOptions) {
-      const {ctx, data, options} = chart;
-      ctx.save();
-      console.log( active.element.x, active.element.y)
-      chart.getActiveElements().forEach((active)=> {
-         ctx.drawImage(<img src={'images/point.png'}/>, active.element.x, active.element.y, 10, 10);
-      });;
-    }
 
-  }
+  const image = new Image();
+  image.src = 'https://kaleidoscopic-kataifi-f0a539.netlify.app/images/point.png';
 
   return (
       <div className='lineChartContainer'>
@@ -58,11 +49,19 @@ const LineChart = () => {
           width='625px'
           height = '177px'
           options = {{
-            // elements: {
-            //   point:{
-            //       radius: 1
-            //   }
-            // },
+            elements: {
+              point: {
+                pointStyle: (context)=>{
+                  const arr = ['circle', 'circle', 'circle', 'circle', 'circle', 'circle', 'circle', 'circle']
+                  if (context.active) {
+                    arr[context.dataIndex] = image
+                  }
+                  return arr
+                }
+              }
+            },
+
+
             plugins : {
               tooltip: {
                 displayColors: false,
