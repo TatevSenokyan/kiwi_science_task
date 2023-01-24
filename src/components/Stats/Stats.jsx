@@ -18,7 +18,9 @@ function Stats () {
                   </div>
 
               </div>
-              <input placeholder='Search your exchange' className='input'/>
+              <input 
+                 placeholder='                       Search your exchange' className='input'
+                />
               <div className='metamask'>
                   <img src={'images/fox.png'} alt='img' />
                   <span >Metamask</span>
